@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+<item android:title="Introduction">
+    <menu>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@drawable/pig"
+            android:title="Introduction" />
+        <item
+            android:id="@+id/nav_imp_farm"
+            android:icon="@drawable/pig"
+            android:title="Importance of pig farming  " />
+    </group>
+        </menu>
+</item>
+
+
+        <item android:title="Breeds">
+            <menu>
+        <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/b1"
+            android:icon="@drawable/pigb"
+            android:title="Indegenous Pig Breeds" />
+        <item
+            android:id="@+id/b2"
+            android:icon="@drawable/pigb"
+            android:title="Exotic Pig Breeds" />
+        <item
+            android:id="@+id/b3"
+            android:icon="@drawable/pigb"
+            android:title="Crossbreeds" />
+
+        </group>
+        </menu>
+        </item>
+
+        <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_sel_breed"
+            android:icon="@drawable/pb"
+            android:title="Selection and Breeding plan of pig farm " />
+        <item
+            android:id="@+id/nav_reprod_breed"
+            android:icon="@drawable/py"
+            android:title="Reproduction in Pigs" />
+        <item
+            android:id="@+id/nav_manage_pig"
+            android:icon="@drawable/pv"
+            android:title="Management of Pigs" />
+        <item
+            android:id="@+id/nav_feed_pig"
+            android:icon="@drawable/pp"
+            android:title="Feeding of Pigs" />
+        <item
+            android:id="@+id/nav_housing"
+            android:icon="@drawable/pr"
+            android:title="Housing of Pigs" />
+        <item
+            android:id="@+id/nav_am_measures"
+            android:icon="@drawable/pb"
+            android:title="Ameliorative measure for climatic stress " />
+        <item
+            android:id="@+id/nav_dises"
+            android:icon="@drawable/pg"
+            android:title="Diseases of Pigs" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/py"
+            android:title="Health Calendar of Pigs" />
+        <item
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/pr"
+            android:title="Transportation of Pigs" />
+        <item
+            android:id="@+id/nav_rfarm"
+            android:icon="@drawable/pp"
+            android:title="Routine Farm Activities" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/pg"
+            android:title="Biosecurity guidelines of pig farm " />
+        <item
+            android:id="@+id/nav_ipg"
+            android:icon="@drawable/py"
+            android:title="Integrated pig farming " />
+        <item
+            android:id="@+id/nav_sm"
+            android:icon="@drawable/pp"
+            android:title="Slaughter management " />
+        <item
+        android:id="@+id/nav_wastd"
+        android:icon="@drawable/pr"
+        android:title="Waste Disposal" />
+
+        <item
+        android:id="@+id/nav_rec"
+        android:icon="@drawable/pb"
+        android:title="Record Keeping" />
+        <item
+        android:id="@+id/nav_tpvc"
+        android:icon="@drawable/pg"
+        android:title="Traceability in Pig Value Chain" />
+
+        <item
+            android:id="@+id/nav_fepp"
+            android:icon="@drawable/py"
+            android:title="Formulation of efficient piggery project" />
+        <item
+            android:id="@+id/nav_aipg"
+            android:icon="@drawable/pv"
+            android:title="Availability of improved pig germplasm " />
+
+    </group>
+        </menu>
+        </item>
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/thumbsup"
+                android:title="Rate US" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/inf"
+                android:title="Developer Info" />
+        </menu>
+    </item>
+
+</menu>
